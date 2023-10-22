@@ -1,21 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
-import Hello from './Hello.js';
 
 
 
-/* ReactDOM.render(<Hello />, document.getElementById('root')); */
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+ReactDOM.render(
+                <div>
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+                </div>
+, document.getElementById('root'));
+
+/* const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Hello greeting={'Hello React Ninja'} />
-    <App />
-  </React.StrictMode>
-);
+  
+   <div>
+    <Card />
+    <Card />
+    <Card />
+   </div>
+   
+  
+); */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
