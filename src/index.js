@@ -3,21 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Card from './Card';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons'
 
 
 
 
-
-ReactDOM.render(
+/* ReactDOM.render(
                 <div>
                   <Card />
                   <Card />
                   <Card />
                   <Card />
                 </div>
-, document.getElementById('root'));
+, document.getElementById('root')); */
 
-/* const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
    <div>
@@ -27,7 +27,7 @@ root.render(
    </div>
    
   
-); */
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
